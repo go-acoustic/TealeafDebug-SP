@@ -1,6 +1,6 @@
-# Tealeaf-SP
+# TealeafDebug-SP
 
-Tealeaf-SP is the Swift Package for Tealeaf that is a customer behavioral analytics SDK as documented [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/acoustic-experience-analytics-tealeaf-sdk-for-ios-standard-and-mobile-editions)
+TealeafDebug-SP is the Swift Package for Tealeaf that is a customer behavioral analytics SDK as documented [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/acoustic-experience-analytics-tealeaf-sdk-for-ios-standard-and-mobile-editions)
 
 
 ## Getting Started
