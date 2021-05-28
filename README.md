@@ -27,7 +27,7 @@ Select correct **Target** to add **Swift Package**
 
 ### Prerequisites
 
-You need to have XCode 12.x that supports Swift Packages to use this item. Otherwise use https://github.com/acoustic-analytics/IBMTealeaf
+You need to have XCode 12.x that supports Swift Packages to use this item. Otherwise use https://github.com/acoustic-analytics/Tealeaf
 For SDK prerequisites and documentation, please refer to the SDK documentation [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/acoustic-experience-analytics-tealeaf-sdk-for-ios-standard-and-mobile-editions)
 
 ## Troubleshooting
