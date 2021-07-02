@@ -69,7 +69,7 @@
 	<key>ScreenShotPixelDensity</key>
 	<real>1.5</real>
 	<key>PostMessageUrl</key>
-	<string>http://lib-us-2.brilliantcollector.com/collector/collectorPost</string>
+	<string>https://lib-us-2.brilliantcollector.com/collector/collectorPost</string>
 	<key>DoPostOnScreenChange</key>
 	<false/>
 	<key>printScreen</key>
