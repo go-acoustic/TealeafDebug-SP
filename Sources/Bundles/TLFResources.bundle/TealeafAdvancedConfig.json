@@ -1,5 +1,5 @@
 {
-  "LibraryVersion": "10.6.128",
+  "LibraryVersion": "10.6.129",
   "FilterMessageTypes": false,
   "MessageTypes": "4,5,6",
   "AddMessageTypeHeader": true,
@@ -62,5 +62,6 @@
   "AddGestureRecognizerUIPageControl": true,
   "SwiftUICaptureNonVariadic": true,
   "UIKeyboardCaptureTouches": false,
-  "TextFieldBeingEditedUseSender": false
+  "TextFieldBeingEditedUseSender": false,
+  "RemoveSwiftUIDuplicates": true
 }
