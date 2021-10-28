@@ -14,9 +14,6 @@ import PackageDescription
 print("Using Tealeaf Debug version, if you need release version use https://github.com/acoustic-analytics/Tealeaf-SP")
 let package = Package(
     name: "Tealeaf",
-    platforms: [
-        .iOS(.v12)
-    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -33,8 +30,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "Tealeaf",
-            url: "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.137/Tealeaf_XCFramework_Debug.zip",
-            checksum: "6fa3953678b62ef4f81d11098999b223dc81a74fecc4d2103914c75b5a6b7ce2"),
+            url: "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.138/Tealeaf_XCFramework_Debug.zip",
+            checksum: "2eaf5cccd75ffb11e387a0d90da4eae5bbac0d63cc48a9def51032f7b9036e24"),
         .binaryTarget(
             name: "EOCore",
             url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.71/EOCore_XCFramework_Debug.zip",
