@@ -14,6 +14,9 @@ import PackageDescription
 print("Using Tealeaf Debug version, if you need release version use https://github.com/acoustic-analytics/Tealeaf-SP")
 let package = Package(
     name: "Tealeaf",
+    platforms: [
+        .iOS(.v12)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
