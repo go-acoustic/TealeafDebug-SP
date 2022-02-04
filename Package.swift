@@ -34,8 +34,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "Tealeaf",
-            url: "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.151/Tealeaf_XCFramework_Debug.zip",
-            checksum: "05ae4af9f7d95a8b7ed9c35ffe3e89a7955584ed49ecf3d9d23a19515db12640"),
+            url: "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.152/Tealeaf_XCFramework_Debug.zip",
+            checksum: "279bff70bf3b2ecdb00d7bceaf589f7fdd95c28af536e146b605871e9addd476"),
         .binaryTarget(
             name: "EOCore",
             url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.196/EOCore_XCFramework_Debug.zip",
