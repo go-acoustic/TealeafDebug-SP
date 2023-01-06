@@ -2,7 +2,7 @@
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-// Copyright (C) 2022 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2023 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -34,8 +34,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "Tealeaf",
-            url: "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.244/Tealeaf_XCFramework_Debug.zip",
-            checksum: "86cd9eda9b7f89c91bcbd57cb1b1793d3c6d38f6f9b51b505387114a3417557b"),
+            url: "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.245/Tealeaf_XCFramework_Debug.zip",
+            checksum: "de0a50b4d0e4f5dacc284338ddca3ba4c1fb2d6dfd8a6b4c79440dfeb75da477"),
         .binaryTarget(
             name: "EOCore",
             url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.257/EOCore_XCFramework_Debug.zip",
