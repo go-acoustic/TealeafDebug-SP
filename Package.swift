@@ -12,7 +12,7 @@
 
 import PackageDescription
 
-print("Using Tealeaf debug version, if you need release version use https://github.com/acoustic-analytics/Tealeaf-SP")
+print("Using Tealeaf debug version, if you need release version use https://github.com/go-acoustic/Tealeaf-SP")
 let package = Package(
     name: "Tealeaf",
     platforms: [
@@ -34,11 +34,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "Tealeaf",
-            url: "https://github.com/acoustic-analytics/Tealeaf/releases/download/10.6.279/Tealeaf_XCFramework_Debug.zip",
+            url: "https://github.com/go-acoustic/Tealeaf/releases/download/10.6.279/Tealeaf_XCFramework_Debug.zip",
             checksum: "62112beea3ebd15b821941038ef8bda4cedd7fbdb901a8a7cf461f2158bc4004"),
         .binaryTarget(
             name: "EOCore",
-            url: "https://github.com/acoustic-analytics/EOCore/releases/download/2.3.269/EOCore_XCFramework_Debug.zip",
-            checksum: "759a90149204575ee63cc8c809082867bb1c334375f5039ebf8b900a5c81e3fb"),
+            url: "https://github.com/go-acoustic/EOCore/releases/download/2.3.270/EOCore_XCFramework_Debug.zip",
+            checksum: "d956a4d59534f4a6ce56f41ebb2855a8297308d5a169aa0d97deeadce1bdc510"),
     ]
 )
