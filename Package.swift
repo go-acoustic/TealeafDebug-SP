@@ -38,7 +38,7 @@ let package = Package(
             checksum: "1b29cd1489e03829d1a976c56080a458f48d5a376d730800b654c69a4c6a5f27"),
         .binaryTarget(
             name: "EOCore",
-            url: "https://github.com/go-acoustic/EOCore/releases/download/2.3.292/EOCore_XCFramework_Debug.zip",
-            checksum: "ea3638983cfc06530dc9270ebb163f641658d7e35f2aa0831ed4f65d2f02ea91"),
+            url: "https://github.com/go-acoustic/EOCore/releases/download/2.3.293/EOCore_XCFramework_Debug.zip",
+            checksum: "18348e787b0a73b1f356c57b7748233bf8ef8326630a6170a7d3e5602232ed10"),
     ]
 )
