@@ -2,7 +2,7 @@
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-// Copyright (C) 2025 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2026 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -38,7 +38,7 @@ let package = Package(
             checksum: "75d27f8197c22aa25b282adab0e373f449e2b64e0b6116bea4877f6c4a5f3ff5"),
         .binaryTarget(
             name: "EOCore",
-            url: "https://github.com/go-acoustic/EOCore/releases/download/2.3.325/EOCore_XCFramework_Debug.zip",
-            checksum: "62b0c137977184755b1f7dff390fd0509aecba9af43a66dc6eb153f69e59e4c1"),
+            url: "https://github.com/go-acoustic/EOCore/releases/download/2.3.326/EOCore_XCFramework_Debug.zip",
+            checksum: "5b89c29a49c3b47220b85d6e020d80cebdbf823df15dfdf5a19662e367130307"),
     ]
 )
