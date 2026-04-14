@@ -1,5 +1,5 @@
 
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
 // Copyright (C) 2026 Acoustic, L.P. All rights reserved.
@@ -16,7 +16,7 @@ print("Using Tealeaf debug version, if you need release version use https://gith
 let package = Package(
     name: "Tealeaf",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v15)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -34,8 +34,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "Tealeaf",
-            url: "https://github.com/go-acoustic/Tealeaf/releases/download/10.6.336/Tealeaf_XCFramework_Debug.zip",
-            checksum: "a4c5260306dc8189d2d0394d61c0fc28e2c34f045dc933851a89975eecdc5e70"),
+            url: "https://github.com/go-acoustic/Tealeaf/releases/download/10.6.337/Tealeaf_XCFramework_Debug.zip",
+            checksum: "ab49e4d83c4d366b96cd5193f43866fc3945e77ab027d5180c8c4acf7bcc8a54"),
         .binaryTarget(
             name: "EOCore",
             url: "https://github.com/go-acoustic/EOCore/releases/download/2.3.338/EOCore_XCFramework_Debug.zip",
